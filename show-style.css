@@ -1,0 +1,145 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #0077b6 25%, hsl(201, 100%, 26%) 100%);
+  }
+  
+  video {
+    width: 300px;
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.15), 30px 0 50px rgba(0,0,0,0.3);
+  }
+  
+  input#open {
+    display: none;
+  }
+  
+  .valentines-day-card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transform: perspective(2500px);
+    transition: .3s;
+  }
+  
+  .card-front {
+    position: relative;
+    background-color: #fdf0d5;
+    width: 300px;
+    height: 300px;
+    transform-origin: left;
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.15), 30px 0 50px rgba(0,0,0,0.3);
+    transition: .3s;
+  }
+  
+  .card-front:before {
+    content: "";
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    background-color: #003049;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .card-inside {
+    position: absolute;
+    background-color: #fdf0d5;
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.22), 100px 20px 100px rgba(0,0,0,.1);
+  }
+  
+  .open {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+    background-color: transparent;
+    z-index: 7;
+    cursor: pointer;
+  }
+  
+  #open:checked ~ .card-front {
+    transform: rotateY(-155deg);
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.13), 30px 0 50px rgba(0,0,0,.1);
+  }
+  
+  #open:checked ~ .card-front:before {
+    z-index: 5;
+    background-color: #0077b6;
+    width: 300px;
+    height: 300px;
+    top: 0px;
+    left: 0px;
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.1), 30px 0 50px rgba(0,0,0,.1);
+  }
+  
+  .note {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    top: 75px;
+    left: 50px;
+    color: #fdf0d5;
+    background-color: #780000;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(0 0 20px rgba(0,0,0,.3));
+  }
+  
+  .note:before, .note:after {
+    content: "";
+    position: absolute;
+    background-color: #ba1c1c;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .note:before {
+    transform: rotate(-45deg);
+    top: -20px;
+    left: 80px;
+  }
+  
+  .note:after {
+    border-radius: 50%;
+    top: -35px;
+    left: 65px;
+    box-shadow: 30px 0 #ba1c1c;
+  }
+  
+  .text-one {
+    position: absolute;
+    color: #fdf0d5;
+    font-size: 25px;
+    top: -50px;
+    width: 300px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    font-style: bold;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  
+  .btn {
+    position: absolute;
+    color: rgb(222, 25, 147);
+    font-size: 15px;
+    top: 320px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  
+  
