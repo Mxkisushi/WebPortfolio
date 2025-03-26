@@ -222,8 +222,8 @@ span {
         color: #FFC400 ;
     }
     81%, 100% {
-        color: #FFC400;
         content: "Front-End Dev";
+        color: #FFC400;       
     }
 }
 
