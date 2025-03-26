@@ -182,7 +182,7 @@ span {
 }
 
 .typing-text span:before {
-    content: "Software Developer";
+    content: "BSIT Student";
     color: #FFDA03;
     animation: words 20s infinite;
 }
