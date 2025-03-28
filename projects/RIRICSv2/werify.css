@@ -1,0 +1,58 @@
+@font-face {
+    font-family: fontys;
+    src: url(fontys/Technova\ PERSONAL\ USE\ ONLY!.ttf);
+}
+@font-face {
+    font-family: fontz;
+    src: url(fontys/AR\ Techni.ttf);
+}
+body{
+    background: linear-gradient(to bottom, #9197AE 25%, #273043 100%);
+    height: 100vh;
+}
+form{
+    align-items: center;
+    background: #EFF6EE;
+    width: 25%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    box-shadow: 0 0 5px;
+    margin: 100px auto;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    font-family: fontz;
+}
+form h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #273043;
+    font-family: fontys;
+}
+form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 95%;
+}
+form button{
+    background-color: #273043;
+    color: #EFF6EE;
+    border-radius: 5px;
+    font-family: fontz;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+form button:hover {
+    background-color: #9197AE;
+    color: #273043;
+    border: #9197AE;
+    cursor: pointer;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
