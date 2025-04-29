@@ -85,7 +85,7 @@ nav a:hover, nav a:active {
     nav a {
         display: block;
         font-size: 2rem;
-        margin: 3rem 0;
+        margin-left: 3rem 0;
     }
     nav a:hover, nav a:active {
         padding: 1rem;
@@ -95,7 +95,7 @@ nav a:hover, nav a:active {
 
     table {
         text-align: center;
-        width: 50%;
+        width: 20%;
         margin: 0 auto;
         align-items: center;
     }
@@ -114,6 +114,54 @@ nav a:hover, nav a:active {
     td {
         color: white;
     }
+
+    #scores-pre table img {
+        width: 20vw;
+        height: auto;
+    }
+
+    footer {
+        background-color: #161616;
+        margin-top: 100px;
+        padding: 2rem;
+        width: 150vw;
+    }
+
+    footer h2 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        margin-left: 15px;
+    }
+    
+    footer p {
+        font-size: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+    
+    footer .links-contact {
+        size: 30px;
+        
+    }
+    
+    .links-contact a {
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        background-color: transparent;
+        font-size: 7.5px;
+        margin: 3rem 1.5rem 3rem;
+        transition: 0.3 ease;
+        color: #FFC400;
+        flex-direction: column;
+    }
+    
+    
+    .links-contact a:hover {
+        color: #f80000;
+        transform: scale(1) transparent;
+    }
+    
 }
 
 table {
