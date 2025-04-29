@@ -256,7 +256,7 @@ footer .links-contact {
 .menu-toggle {
     display: none;
     font-size: 2.5rem;
-    color: white;
+    color: #FFDA03;
     cursor: pointer;
 }
 
@@ -266,11 +266,10 @@ footer .links-contact {
     }
 
     nav {
-        display: none;
         position: absolute;
         top: 100%;
         right: 0;
-        background: #111;
+        background: #FFDA03;
         width: 100%;
         text-align: right;
         padding: 2rem;
