@@ -353,6 +353,19 @@ footer .links-contact {
     cursor: pointer;
 }
 
+.hamburger {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: #007bff;
+}
+
 @media(max-width: 995px) {
     .menu-toggle {
         display: block;
