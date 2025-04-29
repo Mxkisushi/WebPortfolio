@@ -248,6 +248,12 @@ span {
         width: 32vw;
          margin-top: 4rem;
     }
+
+    .typing-text {
+        font-size: 25px;
+        font-weight: 600;
+        min-width: 280px;
+    }
 }
 
 #about {
