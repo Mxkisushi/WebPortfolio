@@ -92,6 +92,28 @@ nav a:hover, nav a:active {
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid #ba0000;
     }
+
+    table {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+    th, td {
+        padding: 20px;
+        font-size: 1rem;
+        border: 2px solid #C0C0C0;
+    }
+    
+    th {
+        color: #ba0000;
+        font-size: 1.5rem;
+    }
+    
+    td {
+        color: white;
+    }
 }
 
 table {
