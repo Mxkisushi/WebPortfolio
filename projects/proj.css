@@ -99,6 +99,27 @@ nav a:hover, nav a:active {
     }
 }
 
+#gitbtn {
+    padding: 1rem 2.8rem;
+    background-color: transparent;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid #ba0000;
+    transition: 0.3 ease;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+#gitbtn:hover {
+    color: #FFDA03;
+    transform: scale3d(1.03);
+    background-color: #ba0000;
+    box-shadow: 0 0 25px #DC0000;
+}
+
 button {
     display: inline-block;
     padding: 1rem 2.8rem;
@@ -111,7 +132,7 @@ button {
     border: 2px solid #ba0000;
     transition: 0.3 ease;
     cursor: pointer;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 button:hover {
